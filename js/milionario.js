@@ -175,23 +175,16 @@ function start(level) {
 
 
 var domande;
-var jqxhr = $.getJSON( "js/domande_difficili.json", function() {
-  console.log( "success" );
-})
-  .done(function() {
-    console.log( "second success" );
-  })
-  .fail(function(a,b,c) {
-    debugger
-    console.log( "error" );
-  })
-  .always(function() {
-    console.log( "complete" );
-  });
 
+var url = new URL(window.location.href);
+var modalitaScelta = url.searchParams.get("modalita");
 
+var modalita = {
+  "facile":"domande_facili",
+  "difficile":"domande_difficili"
+};
 
- $.getJSON('js/domande_difficili.json', "",function(data, status){
+ $.getJSON('js/'+modalita[modalitaScelta]+'.json', "",function(data, status){
    console.log(data);
   domande =data;
   start(0);
