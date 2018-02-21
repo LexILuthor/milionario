@@ -182,12 +182,8 @@ var domande;
 var url = new URL(window.location.href);
 var modalitaScelta = url.searchParams.get("modalita");
 
-var modalita = {
-  "facile":"domande_facili",
-  "difficile":"domande_difficili"
-};
 
- $.getJSON('js/'+modalita[modalitaScelta]+'.json', "",function(data, status){
+ $.getJSON('js/'+modalitaScelta+'.json', "",function(data, status){
    console.log(data);
   domande =data;
   start(0);
