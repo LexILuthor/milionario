@@ -1,36 +1,36 @@
 *****************************************FACILI****************************************************************************
 
-Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.Sernesi, "Analisi Matematica" M.Bertsch e "Calcolo delle Probabilità" P.Baldi.
+Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.Sernesi, "Analisi Matematica" M.Bertsch e "Calcolo delle ProbabilitÃ " P.Baldi.
 
 {
- 		"domanda": "Quale tra i seguenti prodotti notevoli è una differenza di quadrati?",
-                "risposte": ["(a+b)x<sup>2</sup>", "(a+b+c)x<sup>2</sup>", "(a+b)x<sup>3</sup>", "(a+b)(a-b)"],
+ 		"domanda": "Quale tra i seguenti prodotti notevoli Ã¨ una differenza di quadrati?",
+                "risposte": ["(a+b)xÂ²", "(a+b+c)xÂ²", "(a+b)x<sup>3</sup>", "(a+b)(a-b)"],
                 "corretta": "(a+b)(a-b)",
                 "soluzione": "Se prendiamo la somma di due monomi e la moltiplichiamo per la loro differenza, 
-		semplificando i termini in eccesso otteniamo proprio che (a+b)(a-b)=(a^2)-(b^2) che è il risultato cercato"
+		semplificando i termini in eccesso otteniamo proprio che (a+b)(a-b)=(aÂ²)-(bÂ²) che Ã¨ il risultato cercato"
 },
 
 {
- 		"domanda": "Quale tra i seguenti prodotti notevoli è un quadrato di binomio?",
-                "risposte": ["(a+b)^2", "(a+b+c)^2", "(a+b)^3", "(a+b)(a-b)"],
-                "corretta": "(a+b)^2",
-                "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
+ 		"domanda": "Quale tra i seguenti prodotti notevoli Ã¨ un quadrato di binomio?",
+                "risposte": ["(a+b)Â²", "(a+b+c)Â²", "(a+b)^3", "(a+b)(a-b)"],
+                "corretta": "(a+b)Â²",
+                "soluzione": "In matematica un monomio Ã¨ un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
 		La somma di due monomi da un binomio, che elevato al quadrato da proprio la soluzione"
 },
 
 {
- 		"domanda": "Quale tra i seguenti prodotti notevoli è un cubo di binomio?",
-                "risposte": ["(a+b)^2", "(a+b+c)^2", "(a+b)^3", "(a+b)(a-b)"],
+ 		"domanda": "Quale tra i seguenti prodotti notevoli Ã¨ un cubo di binomio?",
+                "risposte": ["(a+b)Â²", "(a+b+c)Â²", "(a+b)^3", "(a+b)(a-b)"],
                 "corretta": "(a+b)^3",
-                "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
+                "soluzione": "In matematica un monomio Ã¨ un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
 		La somma di due monomi da un binomio, che elevato al cubo da proprio la soluzione"
 },
 
 {
- 		"domanda": "Quale tra i seguenti prodotti notevoli è un quadrato di trinomio?",
-                "risposte": ["(a+b)^2", "(a+b+c)^2", "(a+b)^3", "(a+b)(a-b)"],
+ 		"domanda": "Quale tra i seguenti prodotti notevoli Ã¨ un quadrato di trinomio?",
+                "risposte": ["(a+b)Â²", "(a+b+c)Â²", "(a+b)^3", "(a+b)(a-b)"],
                 "corretta": "(a+b+c)^2",
-                "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
+                "soluzione": "In matematica un monomio Ã¨ un'espressione algebrica costituita da una parte letterale ed un coefficiente. 
 		La somma di tre monomi da un trinomio, che elevato al quadrato da proprio la soluzione"
 },
 
@@ -39,7 +39,7 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
                 "risposte": ["1001", "1011", "1111", "1101"],
                 "corretta": "1101",
                 "soluzione": "La rappresentazione di un numero in base 2 avviene sfruttando le potenze del 2.
-		Nel nostro caso il 13 si scompone come 8+4+1 e quindi utilizzeremo 1*(2^3)+1*(2^2)+0*(2^1)+1*(2^0) che si indica appunto con 1101"
+		Nel nostro caso il 13 si scompone come 8+4+1 e quindi utilizzeremo 1*(2^3)+1*(2Â²)+0*(2^1)+1*(2^0) che si indica appunto con 1101"
 		(eventualmente aggiungi link per maggiori chiarimenti)
 },
 
@@ -53,35 +53,35 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
 
 {
  		"domanda": "Quale tra le seguenti equazioni rappresenta una retta reale passante per l'origine?",
-                "risposte": ["y=3x", "y^2=-2(x^2) +4", "y=4(x^2)", "y=5x+3"],
+                "risposte": ["y=3x", "yÂ²=-2(xÂ²) +4", "y=4(xÂ²)", "y=5x+3"],
                 "corretta": "y=3x",
-                "soluzione": "L'equazione generica di una retta reale nel piano è y=mx+q, con m e q numeri reali. Siccome vogliamo che passi per 
-		l'origine è necessario che abbia il punto (0,0) come soluzione, di conseguenza q=0,e quindi otteniamo la soluzione."
+                "soluzione": "L'equazione generica di una retta reale nel piano Ã¨ y=mx+q, con m e q numeri reali. Siccome vogliamo che passi per 
+		l'origine Ã¨ necessario che abbia il punto (0,0) come soluzione, di conseguenza q=0,e quindi otteniamo la soluzione."
 },
 
 {
  		"domanda": "Quale tra i seguenti numeri appartiene ai Naturali?",
-                "risposte": ["-2", "14", "pigreco", "7/2"],
+                "risposte": ["-2", "14", "Ï€", "7/2"],
                 "corretta": "14",
-                "soluzione": "L'insieme dei numeri naturali è N={0,1,2,3,4...}, da cui si deduce che l'unica risposta che vi appartiene è proprio 14.
-		Per altre curiosità sui numeri naturali clicca qui: (LINK)"
+                "soluzione": "L'insieme dei numeri naturali Ã¨ N={0,1,2,3,4...}, da cui si deduce che l'unica risposta che vi appartiene Ã¨ proprio 14.
+		Per altre curiositÃ  sui numeri naturali clicca qui: (LINK)"
 },
 
 {
  		"domanda": "Quale tra i seguenti numeri appartiene agli Interi?",
                 "risposte": ["-2", "sqrt(2)", "pigreco/6", "19/3"],
                 "corretta": "-2",
-                "soluzione": "L'insieme dei numeri interi è Z={0,+1,-1,+2,-2,...}, da cui si deduce che l'unica risposta che vi appartiene è proprio -2.
-		Per altre curiosità sui numeri interi clicca qui: (LINK)"
+                "soluzione": "L'insieme dei numeri interi Ã¨ Z={0,+1,-1,+2,-2,...}, da cui si deduce che l'unica risposta che vi appartiene Ã¨ proprio -2.
+		Per altre curiositÃ  sui numeri interi clicca qui: (LINK)"
 },
 
 {
  		"domanda": "Quale tra i seguenti numeri appartiene ai Razionali?",
                 "risposte": ["sqrt(5)", "e", "pigreco", "17/5"],
                 "corretta": "17/5",
-                "soluzione": "L'insieme dei numeri razionali Q è formato dai numeri nella forma p/q con p e q numeri interi e q(diverso da)0. 
-		L'unica risposta che soddisfa questa condizione è proprio 17/5.
-		Per altre curiosità sui numeri razionali clicca qui: (LINK)"
+                "soluzione": "L'insieme dei numeri razionali Q Ã¨ formato dai numeri nella forma p/q con p e q numeri interi e q(diverso da)0. 
+		L'unica risposta che soddisfa questa condizione Ã¨ proprio 17/5.
+		Per altre curiositÃ  sui numeri razionali clicca qui: (LINK)"
 },
 
 {
@@ -89,117 +89,117 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
                 "risposte": ["sqrt(19)", "1", "0,5", "1/4"],
                 "corretta": "sqrt(19)",
                 "soluzione": "I numeri irrazionali sono quei numeri che non possono essere rappresentati come rapporto tra due numeri interi.
-		In questo caso l'unico non rappresentabile in tale maniera è sqrt(19), difatti gli altri sono 1/1, 1/2, 1/4"
+		In questo caso l'unico non rappresentabile in tale maniera Ã¨ sqrt(19), difatti gli altri sono 1/1, 1/2, 1/4"
 },
 
 {
- 		"domanda": "Quale tra i seguenti numeri è immaginario puro?",
+ 		"domanda": "Quale tra i seguenti numeri Ã¨ immaginario puro?",
                 "risposte": ["i7", "4+i5", "19", "sqrt(13)"],
                 "corretta": "i7",
                 "soluzione": "I numeri complessi vengono rappresentati come z=a+ib con a e b numeri reali, che vengono rispettivamente 
-		chiamati parte reale e parte immaginaria. Un numero immaginario puro è un numero complesso con solo la parte immaginaria (a=0), da cui la soluzione"
+		chiamati parte reale e parte immaginaria. Un numero immaginario puro Ã¨ un numero complesso con solo la parte immaginaria (a=0), da cui la soluzione"
 },
 
 {
  		"domanda": "Quale tra i seguenti numeri corrisponde a 51 in romano?",
                 "risposte": ["LI", "LII", "CI", "CII"],
                 "corretta": "LI",
-                "soluzione": "Nel sistema di numerazione romano I rappresenta l'unità, X=10,L=50,C=100, ricordando questo la soluzione è ovvia.
-		Per altre curiosità sui numeri romani e le operazioni tra essi clicca qui: (LINK)"
+                "soluzione": "Nel sistema di numerazione romano I rappresenta l'unitÃ , X=10,L=50,C=100, ricordando questo la soluzione Ã¨ ovvia.
+		Per altre curiositÃ  sui numeri romani e le operazioni tra essi clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "Quale tra i seguenti numeri è primo?",
+ 		"domanda": "Quale tra i seguenti numeri Ã¨ primo?",
                 "risposte": ["200", "9", "6", "5"],
                 "corretta": "5",
-                "soluzione": "Un numero primo è un numero naturale maggiore di 1 divisibile soltanto per 1 e per sè stesso.
-		Per altre curiosità sui numeri primi clicca qui: (LINK)"
+                "soluzione": "Un numero primo Ã¨ un numero naturale maggiore di 1 divisibile soltanto per 1 e per sÃ¨ stesso.
+		Per altre curiositÃ  sui numeri primi clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "Qual'è il minimo comune multiplo (mcm) tra 5 e 8?",
+ 		"domanda": "Qual'Ã¨ il minimo comune multiplo (mcm) tra 5 e 8?",
                 "risposte": ["20", "35", "40", "80"],
                 "corretta": "40",
-                "soluzione": "L'mcm tra due numeri è il più piccolo naturale multiplo sia del primo che del secondo numero.
-		Per altre curiosità sull'mcm clicca qui: (LINK)"
+                "soluzione": "L'mcm tra due numeri Ã¨ il piÃ¹ piccolo naturale multiplo sia del primo che del secondo numero.
+		Per altre curiositÃ  sull'mcm clicca qui: (LINK)"
 },
 
 
 {
- 		"domanda": "Qual'è il massimo comune divisore (MCD) tra 12 e 18?",
+ 		"domanda": "Qual'Ã¨ il massimo comune divisore (MCD) tra 12 e 18?",
                 "risposte": ["3", "9", "6", "2"],
                 "corretta": "6",
-                "soluzione": "L'MCD tra due numeri è il più grande naturale che divide sia del primo che il secondo numero.
-		Per altre curiosità sull'MCD clicca qui: (LINK)""
+                "soluzione": "L'MCD tra due numeri Ã¨ il piÃ¹ grande naturale che divide sia del primo che il secondo numero.
+		Per altre curiositÃ  sull'MCD clicca qui: (LINK)""
 },
 
 {
- 		"domanda": "Qual'è la radice cubica di 64?",
+ 		"domanda": "Qual'Ã¨ la radice cubica di 64?",
                 "risposte": ["8", "7", "5", "4"],
                 "corretta": "4",
-                "soluzione": "La radice cubica di un numero, è la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4^3=64."
+                "soluzione": "La radice cubica di un numero, Ã¨ la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4^3=64."
 },
 
 {
- 		"domanda": "Qual'è la radice quadrata di 36?",
+ 		"domanda": "Qual'Ã¨ la radice quadrata di 36?",
                 "risposte": ["4", "7", "5", "6"],
                 "corretta": "6",
-                "soluzione": "La radice quadrata di un numero, è la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6^2=36."
+                "soluzione": "La radice quadrata di un numero, Ã¨ la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6^2=36."
 },
 
 {
- 		"domanda": "Qual'è il quadrato di 7?",
+ 		"domanda": "Qual'Ã¨ il quadrato di 7?",
                 "risposte": ["50", "49", "64", "36"],
                 "corretta": "49",
-                "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7^2 che è appunto uguale a 49."
+                "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7^2 che Ã¨ appunto uguale a 49."
 },
 
 {
- 		"domanda": "Qual'è il cubo di 5?",
+ 		"domanda": "Qual'Ã¨ il cubo di 5?",
                 "risposte": ["150", "125", "100", "200"],
                 "corretta": "125",
-                "soluzione": "Per cubo di un numero si intende la sua potenza con esponente 3. Nel nostro caso 5^3  che è appunto uguale a 125."
+                "soluzione": "Per cubo di un numero si intende la sua potenza con esponente 3. Nel nostro caso 5^3  che Ã¨ appunto uguale a 125."
 },
 
 {
- 		"domanda": "Quale tra i seguenti numeri è dispari?",
+ 		"domanda": "Quale tra i seguenti numeri Ã¨ dispari?",
                 "risposte": ["0", "3", "18", "300"],
                 "corretta": "3",
-                "soluzione": "I numeri dispari sono numeri non multipli di 2. In questo caso notiamo subito che 3 è dispari."
+                "soluzione": "I numeri dispari sono numeri non multipli di 2. In questo caso notiamo subito che 3 Ã¨ dispari."
 },
 
 {
- 		"domanda": "Quale tra i seguenti numeri è pari?",
+ 		"domanda": "Quale tra i seguenti numeri Ã¨ pari?",
                 "risposte": ["1", "26", "7", "2019"],
                 "corretta": "26",
-                "soluzione": "I numeri pari sono numeri multipli di 2. In questo caso notiamo subito che 26 è pari."
+                "soluzione": "I numeri pari sono numeri multipli di 2. In questo caso notiamo subito che 26 Ã¨ pari."
 },
 
 **************************************INTERMEDIE********************************************************** 
 
 {
- 		"domanda": "Qual'è il grado del polinomio nullo?",
+ 		"domanda": "Qual'Ã¨ il grado del polinomio nullo?",
                 "risposte": ["0", "1", "+inf", "-inf"],
                 "corretta": "-inf",
-                "soluzione": "E' stato introdotto in questa maniera per non creare abiguità sulle operazioni di grado tra polinomi.
-		Per saperne di più sul grado di un polinomio clicca qui: (LINK)"
+                "soluzione": "E' stato introdotto in questa maniera per non creare abiguitÃ  sulle operazioni di grado tra polinomi.
+		Per saperne di piÃ¹ sul grado di un polinomio clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "Quale tra le seguenti NON è una delle propietà che caratterizzano un gruppo?",
-                "risposte": ["Esistenza Unità", "Esistenza Inverso", "Prop. Associativa", "Prop. Distributiva"],
+ 		"domanda": "Quale tra le seguenti NON Ã¨ una delle propietÃ  che caratterizzano un gruppo?",
+                "risposte": ["Esistenza UnitÃ ", "Esistenza Inverso", "Prop. Associativa", "Prop. Distributiva"],
                 "corretta": "Prop. Distributiva",
-                "soluzione": "Un gruppo è una coppia (G,*) dove G è un insieme non vuoto e * un'operazione binaria su G. Affinchè sia un gruppo devono valere 3 proprietà:
-		l'operazione deve rispettare la proprietà Associativa ,l'esistenza dell'Unità e l'esistenza dell'inverso rispetto a *.
-		Per saperne di più sui Gruppi clicca qui: (LINK)"
+                "soluzione": "Un gruppo Ã¨ una coppia (G,*) dove G Ã¨ un insieme non vuoto e * un'operazione binaria su G. AffinchÃ¨ sia un gruppo devono valere 3 proprietÃ :
+		l'operazione deve rispettare la proprietÃ  Associativa ,l'esistenza dell'UnitÃ  e l'esistenza dell'inverso rispetto a *.
+		Per saperne di piÃ¹ sui Gruppi clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "Qual'è la propietà che caratterizza un semigruppo?",
-                "risposte": ["Unità", "Opposto", "Prop. Associativa", "Prop. Commutativa"],
+ 		"domanda": "Qual'Ã¨ la propietÃ  che caratterizza un semigruppo?",
+                "risposte": ["UnitÃ ", "Opposto", "Prop. Associativa", "Prop. Commutativa"],
                 "corretta": "Prop. Associativa",
-                "soluzione": "Un semigruppo è una coppia (S,*) dove S è un insieme non vuoto e * un'operazione binaria su S che rispetti la prop. Associativa.
-		Per saperne di più sui semigruppi clicca qui: (LINK)"
+                "soluzione": "Un semigruppo Ã¨ una coppia (S,*) dove S Ã¨ un insieme non vuoto e * un'operazione binaria su S che rispetti la prop. Associativa.
+		Per saperne di piÃ¹ sui semigruppi clicca qui: (LINK)"
 },
 
 {
@@ -211,27 +211,27 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
 
 
 {
- 		"domanda": "Quale tra queste isometrie non è Diretta?",
-                "risposte": ["Rotazione", "Traslazione", "Identità", "Riflessione"],
+ 		"domanda": "Quale tra queste isometrie non Ã¨ Diretta?",
+                "risposte": ["Rotazione", "Traslazione", "IdentitÃ ", "Riflessione"],
                 "corretta": "Riflessione",
                 "soluzione": "Le isometrie sono particolari trasformazioni che non alterano la distanza fra punti. Si dividono in dirette ed inverse.
 		Tra le dirette abbiamo rotazioni,traslazioni,rototraslazioni mentre tra le inverse ci sono riflessioni e glissoriflessioni.
-		Per saperne di più sulle isometrie clicca qui: (LINK) o vedi libro consigliato "Geometria 1" Sernesi."
+		Per saperne di piÃ¹ sulle isometrie clicca qui: (LINK) o vedi libro consigliato "Geometria 1" Sernesi."
 },
 
 {
- 		"domanda": "Qual'è l'unico punto di accumulazione per N in R*?",
+ 		"domanda": "Qual'Ã¨ l'unico punto di accumulazione per N in R*?",
                 "risposte": ["0", "1", "+Inf", "-Inf"],
                 "corretta": "+Inf",
                 "soluzione": "Basta applicare la definizone di punto di accumulazione (gli intorni di +inf sono semirette)."
 },
 
 {
- 		"domanda": "Quale tra i seguenti insiemi NON è un campo?",
+ 		"domanda": "Quale tra i seguenti insiemi NON Ã¨ un campo?",
                 "risposte": ["C", "R", "Z", "Q"],
                 "corretta": "Z",
-                "soluzione": "Un campo è una triade (K,*,+) con K insieme non vuoto e *,+ operazioni binarie. 
-		Affinchè sia un campo è necessario che ogni elemento non nullo sia invertibile, cosa che non succede se consideriamo Z."
+                "soluzione": "Un campo Ã¨ una triade (K,*,+) con K insieme non vuoto e *,+ operazioni binarie. 
+		AffinchÃ¨ sia un campo Ã¨ necessario che ogni elemento non nullo sia invertibile, cosa che non succede se consideriamo Z."
 },
 
 {
@@ -259,7 +259,7 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
  		"domanda": "Quale operazione tra insiemi rappresenta la congiunione "e"?",
                 "risposte": ["Unione", "Intersezione", "Complementare", "Senza"],
                 "corretta": "Intersezione",
-                "soluzione": "La congiunzione "e" nel campo dell'insiemistica può essere interpretata perfettamente dall'intersezione. 
+                "soluzione": "La congiunzione "e" nel campo dell'insiemistica puÃ² essere interpretata perfettamente dall'intersezione. 
 		Difatti un elemento che sta nell'intersezione sta nell'uno e nell'altro. Vedi cap.1 del libro consigliato "Analisi Matematica" M.Bertsch."
 },
 
@@ -267,8 +267,8 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
  		"domanda": "Quale operazione tra insiemi rappresenta la congiunione "o"?",
                 "risposte": ["Unione", "Intersezione", "Complementare", "Senza"],
                 "corretta": "Unione",
-                "soluzione": ""La congiunzione "o" nel campo dell'insiemistica può essere interpretata perfettamente dall'unione. 
-		Difatti un elemento che sta nell'unione sta nell'uno o nell'altro (NON è una "o" esclusiva). 
+                "soluzione": ""La congiunzione "o" nel campo dell'insiemistica puÃ² essere interpretata perfettamente dall'unione. 
+		Difatti un elemento che sta nell'unione sta nell'uno o nell'altro (NON Ã¨ una "o" esclusiva). 
 		Vedi cap.1 del libro consigliato "Analisi Matematica" M.Bertsch."
 },
 
@@ -280,19 +280,19 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
 },
 
 {
- 		"domanda": "Quale tra queste NON è una delle proprietà di una relazione di equivalenza?",
-                "risposte": ["Riflessività", "Transitività", "Simmetria", "Chiusura"],
+ 		"domanda": "Quale tra queste NON Ã¨ una delle proprietÃ  di una relazione di equivalenza?",
+                "risposte": ["RiflessivitÃ ", "TransitivitÃ ", "Simmetria", "Chiusura"],
                 "corretta": "Chiusura",
-                "soluzione": "Una relazione di equivalenza è una relazione binaria tra gli elementi di un'insieme che soddisfa le proprietà: Riflessiva, Simmetrica e Transitiva.
-		Per saperne di più sulle proprietà di una relazione di equivalenza clicca qua: (LINK)"
+                "soluzione": "Una relazione di equivalenza Ã¨ una relazione binaria tra gli elementi di un'insieme che soddisfa le proprietÃ : Riflessiva, Simmetrica e Transitiva.
+		Per saperne di piÃ¹ sulle proprietÃ  di una relazione di equivalenza clicca qua: (LINK)"
 },
 
 {
- 		"domanda": "Quale tra queste NON è una delle proprietà di una funzione chiamata omeomorfismo?",
+ 		"domanda": "Quale tra queste NON Ã¨ una delle proprietÃ  di una funzione chiamata omeomorfismo?",
                 "risposte": ["Continua", "Inversa continua", "Biiettiva", "Differenziabile"],
                 "corretta": "Differenziabile",
                 "soluzione": "Discende direttamente dalla definizione. 
-		Un omeomorfismo è una funzione tra spazi topologici che è continua, biiettiva e con inversa continua. Vedi cap.5 del libro consigliato "Geometria 2" E.Sernesi."
+		Un omeomorfismo Ã¨ una funzione tra spazi topologici che Ã¨ continua, biiettiva e con inversa continua. Vedi cap.5 del libro consigliato "Geometria 2" E.Sernesi."
 },
 
 
@@ -300,31 +300,31 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
 ****************************************DIFFICILI*******************************************************************************
 
 {
- 		"domanda": "In che anno è morto il matematico Carl Friedrich Gauss?",
+ 		"domanda": "In che anno Ã¨ morto il matematico Carl Friedrich Gauss?",
                 "risposte": ["1704", "1705", "1706", "1707"],
                 "corretta": "1707",
-                "soluzione": "Per saperne di più su Carl Friedrich Gauss clicca qui: (LINK)"
+                "soluzione": "Per saperne di piÃ¹ su Carl Friedrich Gauss clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "In che anno è nato il matematico Eulero?",
+ 		"domanda": "In che anno Ã¨ nato il matematico Eulero?",
                 "risposte": ["1854", "1855", "1856", "1857"],
                 "corretta": "1855",
-                "soluzione": "Per saperne di più su Eulero clicca qui: (LINK)"
+                "soluzione": "Per saperne di piÃ¹ su Eulero clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "In che città nacque il matematico francese Augustin Louis Cauchy?",
+ 		"domanda": "In che cittÃ  nacque il matematico francese Augustin Louis Cauchy?",
                 "risposte": ["Parigi", "Lione", "Tolosa", "Orleans"],
                 "corretta": "Parigi",
-                "soluzione": "Per saperne di più su Augustin Louis Cauchy clicca qui: (LINK)"
+                "soluzione": "Per saperne di piÃ¹ su Augustin Louis Cauchy clicca qui: (LINK)"
 },
 
 {
- 		"domanda": "Se una curva ha torsione e curvatura costanti è..",
+ 		"domanda": "Se una curva ha torsione e curvatura costanti Ã¨..",
                 "risposte": ["una circonferenza", "una retta", "un'elica circolare", "nessuna delle precedenti"],
                 "corretta": "un'elica circolare",
-                "soluzione": "Se una curva ha curvatura e torsione costanti è un elica circolare, discende dalla definizione di elica circolare.
+                "soluzione": "Se una curva ha curvatura e torsione costanti Ã¨ un elica circolare, discende dalla definizione di elica circolare.
 		Vedi cap.6 del libro consigliato "Geometria 2" E.Sernesi."
 },
 
@@ -332,15 +332,15 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
  		"domanda": "Quale tra i seguenti versori NON fa parte della Terna di Frenet?",
                 "risposte": ["Normale", "Binormale", "Tangente", "Osculatore"],
                 "corretta": "Osculatore",
-                "soluzione": "La terna di Frenet indiata con {t,n,b} è una base ortonormale per lo spazio, ed è formata dai versori Tangente, Normale e Binormale.
+                "soluzione": "La terna di Frenet indiata con {t,n,b} Ã¨ una base ortonormale per lo spazio, ed Ã¨ formata dai versori Tangente, Normale e Binormale.
 		Vedi cap.6 del libro consigliato "Geometria 2" E.Sernesi."
 },
 
 {
- 		"domanda": "Quale tra le seguenti propietà NON caratterizza una varietà topologica?",
+ 		"domanda": "Quale tra le seguenti propietÃ  NON caratterizza una varietÃ  topologica?",
                 "risposte": ["localmente euclideo", "a base numerabile", "connesso", "compatto"],
                 "corretta": "compatto",
-                "soluzione": "Una varietà topologica è uno spazio topologico connesso, localmente euclideo, a base numerabile e di Hausdorff.
+                "soluzione": "Una varietÃ  topologica Ã¨ uno spazio topologico connesso, localmente euclideo, a base numerabile e di Hausdorff.
 		Vedi cap.5 del libro consigliato "Geometria 2" E.Sernesi."
 },
 
@@ -349,7 +349,7 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
                 "risposte": ["p", "p(1-p)", "(1-p)", "1"],
                 "corretta": "p(1-p)",
                 "soluzione": "Si ricava direttamente dalla formula, difatti Var(X)=E[X^2]-[E(X)^2] dove con E[X] indico la media di X."
-		Vedi libro consigliato "Calcolo delle Probabilità" P.Baldi."
+		Vedi libro consigliato "Calcolo delle ProbabilitÃ " P.Baldi."
 },
 
 
