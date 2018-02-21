@@ -13,7 +13,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 var domade;
- $.getJSON('./domande_difficili.json', "", function(data){
+ $.getJSON('.js/domande_difficili.json', "", function(data){
    console.log(data);
   domande =data;
   start(0);
