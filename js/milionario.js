@@ -170,8 +170,11 @@ function start(level) {
             start(level + 1);
         }
     });
-}
 
+    $('#soluzione').on('click', function(){
+      $('#testo-soluzione').text(thisQuestion.soluzione);
+    });
+}
 
 
 var domande;
