@@ -180,16 +180,16 @@
 
         {
             "domanda": "Qual'è l'unico punto di accumulazione per N in R*?",
-            "risposte": ["0", "1", "+Inf", "-Inf"],
-            "corretta": "+Inf",
-            "soluzione": "Basta applicare la definizone di punto di accumulazione (gli intorni di +inf sono semirette)."
+            "risposte": ["0", "1", "+∞", "-∞"],
+            "corretta": "+∞",
+            "soluzione": "Basta applicare la definizone di punto di accumulazione (gli intorni di +∞ sono semirette)."
         },
 
         {
             "domanda": "Quanti punti di accumulazione ha N in R*?",
             "risposte": ["0", "1", "Infiniti", "32"],
             "corretta": "1",
-            "soluzione": "Basta applicare la definizone di punto di accumulazione ad N e notare che funziona solo con +inf."
+            "soluzione": "Basta applicare la definizone di punto di accumulazione ad N e notare che funziona solo con +∞."
         },
 
 
