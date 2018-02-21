@@ -156,8 +156,8 @@
 
         {
             "domanda": "Qual'è il grado del polinomio nullo?",
-            "risposte": ["0", "1", "+inf", "-inf"],
-            "corretta": "-inf",
+            "risposte": ["0", "1", "+∞", "-∞"],
+            "corretta": "-∞",
             "soluzione": "E' stato introdotto in questa maniera per non creare abiguità sulle operazioni di grado tra polinomi."
         },
 
