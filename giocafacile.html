@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IL GIOCONE</title>
+
+    <!-- Bootstrap -->
+    <link href="https://bootswatch.com/3/slate/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12" id="gioco">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="alert alert-success" role="alert" style="text-align:center;padding: 0;">
+                    <h1 id="livello">livello 1</h1>
+                  </div>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button type="button" class="btn btn-info hint"  id="casa" data-toggle="modal" data-target="#modalCasa" >Casa</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button type="button" class="btn btn-info hint" id="pubblico"  data-toggle="modal" data-target="#modalPubblico">Pubblico</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button type="button" class="btn btn-info hint" id="cinquanta">50/50</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="well well-lg" id="domanda"></div>
+                    </div>
+                </div>
+                <div class="row" id="prima-riga">
+                    <div class="col-xs-1">
+                      <h3>A</h3>
+                    </div>
+                    <div class="col-xs-5">
+                        <button type="button" class="btn btn-primary answer"  >Primary</button>
+                    </div>
+                      <div class="col-xs-1">
+                        <h3>B</h3>
+                      </div>
+                    <div class="col-xs-5">
+                        <button type="button" class="btn btn-primary answer">Primary</button>
+                    </div>
+                </div>
+                <div class="row" id="seconda-riga">
+                    <div class="col-xs-1">
+                      <h3>C</h3>
+                    </div>
+                    <div class="col-xs-5">
+                        <button type="button" class="btn btn-primary answer">Primary</button>
+                    </div>
+                      <div class="col-xs-1">
+                        <h3>D</h3>
+                      </div>
+                    <div class="col-xs-5">
+                        <button type="button" class="btn btn-primary answer">Primary</button>
+                    </div>
+                </div>
+                <div class="row" id="continua">
+                    <div class="col-xs-6">
+                        <h3><a href="#" id="soluzione" target="_blank">Soluzione</a></h3>
+                    </div>
+                    <div class="col-xs-6">
+                        <button type="button" class="btn btn-info" id="next-level">Avanti</button>
+                        <a href="modalita.html"><button type="button" class="btn btn-danger" id="next-game">Rigioca</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-xs-2 avanzamento">
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- modalCasa -->
+
+    <div class="modal fade" id="modalCasa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chiamata in corso</h4>
+          </div>
+          <div class="modal-body">
+            <p id="chiamata">
+              Risponde Marco Andreatta
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" id="modalPubblico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Le risposte del pubblico!!!</h4>
+          </div>
+          <div class="modal-body">
+            <div class="progress progress-bar-vertical">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 50%;">
+                  <span class="percentage-number"></span>
+                </div>
+              </div>  <div class="progress progress-bar-vertical">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 30%;">
+                    <span class="percentage-number"></span>
+                  </div>
+                </div>  <div class="progress progress-bar-vertical">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 30%;">
+                    <span class="percentage-number"></span>
+                  </div>
+                </div>  <div class="progress progress-bar-vertical">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 30%;">
+                    <span class="percentage-number"></span>
+                  </div>
+                </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    /**
+ * Returns a random number between min (inclusive) and max (exclusive)
+ */
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+/**
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+        var domande = [
+            [{
+ 		"domanda": "Quale tra i seguenti prodotti notevoli è una differenza di quadrati?",
+                "risposte": ["(a+b)x<sup>2</sup>", "(a+b+c)x<sup>2</sup>", "(a+b)x<sup>3</sup>", "(a+b)(a-b)"],
+                "corretta": "(a+b)(a-b)",
+                "soluzione": "www.google."
+},], //fine livello 1
+            [{
+                "domanda": "quanto fa 1*1",
+                "risposte": [1, 4, 2, 5],
+                "corretta": 1,
+                "soluzione": "https://www.google.com"
+            }, {
+                "domanda": "dove non si può stare?",
+                "risposte": ["nell'angolo rotture della LIDL", "in sosta vietata", "nelle aule di povo dopo le 6", "sul 5 alla mattina"],
+                "corretta": "nell'angolo rotture della LIDL",
+                "soluzione": "https://www.youtube.com/watch?v=XxvQwSNUeLk"
+            }], //fine livello 2
+            [{
+                "domanda": "qual tra questi è un metallo?",
+                "risposte": ["necromania", "nove", "oro", "AC/DC"],
+                "corretta": "oro",
+                "soluzione": "https://www.google.com"
+            }
+
+
+            ],// fine livello 3
+            [{
+                "domanda": "in che anno sono stati fondati i creed?",
+                "risposte": [1993, 1994, 1992, 15],
+                "corretta": 1993,
+                "soluzione": "https://www.google.com"
+            }, {
+                "domanda": "qual'è stata la canzone di Lady Gaga con il maggior numero di dischi venduti?",
+                "risposte": ["poker face", "paparazzi", "bad romance", "Alejandro"],
+                "corretta": "poker face",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 4
+            [{
+                "domanda": "chi rubò la gioconda nel 1911?",
+                "risposte": ["Alfredo Geri", "Louis Lépine", "Vincenzo Peruggia", "Louis Béroud"],
+                "corretta": "Vincenzo Peruggia",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 5
+            [{
+                "domanda": "quale tra queste è una band christian metal?",
+                "risposte": ["August Burns Red", "pantera", "Iron Claw", "Attila"],
+                "corretta": "August Burns Red",
+                "soluzione": "https://www.google.com"
+            },
+            {
+                "domanda": "che bottiglia ha tirato su il tini dalle immondizie di mesiano?",
+                "risposte": ["Montenegro", "GinLemon", "Black Crow", "Beera"],
+                "corretta": "GinLemon",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 6
+            [{
+                "domanda": "come si chiamava la prima band del Tini?",
+                "risposte": ["wrathstorm", "the ringhier", "stramezza", "twinkera"],
+                "corretta": "the ringhier",
+                "soluzione": "https://www.google.com"
+            }, {
+                "domanda": "come si chiama l'airband fondata da Ted e l'inserviente in Scrubs?",
+                "risposte": [3, "CoolCats", "Rats", "Hospitalizers"],
+                "corretta": "CoolCats",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 7
+            [{
+                "domanda": "sotto quale imperatore l'impero romano raggiunse la sua massima estensione?",
+                "risposte": ["Claudio", "Nerone", "Traiano", "Augusto"],
+                "corretta": "Traiano",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 8
+            [ {
+                "domanda": "chi è stato il fondatore dei Black Death?",
+                "risposte": ["Greg Hicks ","Mark Shea", "Geezer Butler", "Tommy Thayer"],
+                "corretta": "Greg Hicks ",
+                "soluzione": "https://www.google.com"
+            }],//fine livello 9
+            [{
+                "domanda": "non mi aspettavo arrivassi fin qui",
+                "risposte": [3, 4, 1, 5],
+                "corretta": 1,
+                "soluzione": "https://www.google.com"
+            }],//fine livello 10
+        ];
+
+        function shuffle(a) {
+            var j, x, i;
+            for (i = a.length; i; i--) {
+                j = Math.floor(Math.random() * i);
+                x = a[i - 1];
+                a[i - 1] = a[j];
+                a[j] = x;
+            }
+        }
+
+        function getRandomQuestionForLevel(level) {
+            return domande[level][Math.floor(Math.random() * domande[level].length)];
+        }
+
+        function start(level) {
+          $('#livello').text("Livello "+(level+1));
+            $('.answer').removeClass('btn-warning');
+            $('.answer').removeClass('btn-success');
+            $('.answer').prop("disabled", false);
+            $('.answer').addClass('btn-primary');
+
+            $('.answerindexOfCorrectAnswer').addClass('btn-primary');
+            $('.answer').off();
+            $('#continua').hide();
+            $('#next-level').hide();
+            $('#next-game').hide();
+
+            var thisQuestion = getRandomQuestionForLevel(level);
+            //var correctAnswer = thisQuestion.risposte[0];
+            shuffle(thisQuestion.risposte);
+            $('#domanda').text(thisQuestion.domanda);
+            $('.answer').each(function(index) {
+                $(this).text(thisQuestion.risposte[index]);
+            });
+
+            $('.answer').on('click', function(event) {
+                if ($(this).hasClass('btn-warning')) {
+                    $('.answer').removeClass('btn-warning');
+                    $('.answer').prop("disabled", true);
+                    if ($(this).text() === "" + thisQuestion.corretta) { //controllo se la risposta è correta o meno
+                        $(this).addClass('btn-success');
+                        $('#continua').show();
+                        $("#next-level").show();
+                        $("#next-game").hide();
+
+                    } else {
+                        $(this).addClass('btn-danger');
+                        $('.answer').each(function(index) {
+                            if ($(this).text() === "" + thisQuestion.corretta) {
+                                $(this).addClass('btn-success');
+                            }
+                        });
+                        $('#next-level').hide();
+                        $('#next-game').show();
+                        $('#continua').show();
+
+                    }
+                    $('#soluzione').attr("href", thisQuestion.soluzione);
+
+                } else {
+                    $('.answer').removeClass('btn-warning');
+                    $(this).addClass('btn-warning');
+                }
+                setTimeout(function () {
+                  $(self).prop("disabled", true);
+                }, 10);
+            });
+            /////////////////////////modifiche
+            $('#cinquanta').on('click', function(event) {
+                $(this).prop("disabled", true);
+                $(this).removeClass('btn-info');
+
+
+                var buttonsToDisplay = [];
+                var indexOfCorrectAnswer = thisQuestion.risposte.indexOf(thisQuestion.corretta);
+                var tmpArray = thisQuestion.risposte.filter(function (number) {
+                                return number !== thisQuestion.corretta;
+                });
+                shuffle(tmpArray);
+                buttonsToDisplay.push(thisQuestion.risposte.indexOf(tmpArray[0]));
+                buttonsToDisplay.push(indexOfCorrectAnswer);
+                $('.answer').each(function(index) {
+                    $(this).prop("disabled", false);
+                    $(this).addClass('btn-primary');
+                    if (!buttonsToDisplay.includes(index)) {
+                        $(this).removeClass('btn-primary');
+                        $(this).removeClass('btn-warning');
+                        $(this).prop("disabled", true);
+                    }
+                });
+            });
+
+
+            $('#casa').on('click', function(event) {
+              $(this).removeClass('btn-info');
+              var self=this;
+              setTimeout(function () {
+                $(self).prop("disabled", true);
+              }, 100);
+                setTimeout(function(){
+                  $('#chiamata').text("Sto pensando...");
+                  setTimeout(function(){
+                    var indexOfCorrectAnswer = thisQuestion.risposte.indexOf(thisQuestion.corretta);
+                    var risp = ['A','B','C','D'];
+                    risposta=getRandomInt(0,10);
+                    if(level/2<risposta){
+                      $('#chiamata').text("Penso che sia la " + risp[indexOfCorrectAnswer]);
+                    }else{
+                      $('#chiamata').text("Penso che sia la " + risp[getRandomInt(0,3)]);
+                    }
+                  },2000);
+                },3000);
+
+
+              });
+
+
+            $('#pubblico').on('click', function(event) {
+                $(this).removeClass('btn-info');
+                var self=this;
+                 setTimeout(function () {
+                   $(self).prop("disabled", true);
+                 }, 100);
+                var indexOfCorrectAnswer = thisQuestion.risposte.indexOf(thisQuestion.corretta);
+                var random = [getRandomInt(0,100),getRandomInt(0,100),getRandomInt(0,100),getRandomInt(0,100)];
+                random[indexOfCorrectAnswer] = getRandomInt(100-(level/2+1)*10, 100);
+                for(i=0;i<4;i++){
+                  if(i!=indexOfCorrectAnswer){
+                    random[i]=getRandomInt(0, (level+1)*10);
+                  }
+                }
+                var sumOfNumbers = random[0]+random[1]+random[2]+random[3];
+                random[0]=100/sumOfNumbers * random[0];
+                random[1]=100/sumOfNumbers * random[1];
+                random[2]=100/sumOfNumbers * random[2];
+                random[3]=100/sumOfNumbers * random[3];
+                console.log(random);
+                $('#modalPubblico .progress-bar').each(function(item){
+                  $(this).css('height', random[item]+'%');
+                });
+                $('#modalPubblico .percentage-number').each(function(item){
+                  if(random[item]>20){
+                    $(this).text(Math.floor(random[item])+'%');
+                  }
+                });
+            });
+            //////////fine
+            $('#next-level').on('click', function() {
+              if(level+1==10){
+               window.location.href = "./vittoria.html";
+              }else{
+                start(level + 1);
+              }
+            });
+        }
+        start(0);
+    </script>
+</body>
+
+</html>
