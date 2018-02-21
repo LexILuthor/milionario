@@ -121,7 +121,7 @@ function start(level) {
                 var indexOfCorrectAnswer = thisQuestion.risposte.indexOf(thisQuestion.corretta);
                 var risp = ['A', 'B', 'C', 'D'];
                 risposta = getRandomInt(0, 10);
-                if (level / 2 < risposta) {
+                if (level / 2-1 < risposta) {
                     $('#chiamata').text("Penso che sia la " + risp[indexOfCorrectAnswer]);
                 } else {
                     $('#chiamata').text("Penso che sia la " + risp[getRandomInt(0, 3)]);
@@ -141,7 +141,7 @@ function start(level) {
         }, 100);
         var indexOfCorrectAnswer = thisQuestion.risposte.indexOf(thisQuestion.corretta);
         var random = [getRandomInt(0, 100), getRandomInt(0, 100), getRandomInt(0, 100), getRandomInt(0, 100)];
-        random[indexOfCorrectAnswer] = getRandomInt(100 - (level / 2 + 1) * 10, 100);
+        random[indexOfCorrectAnswer] = getRandomInt(100 - (level / 2 ) * 10, 100);
         for (i = 0; i < 4; i++) {
             if (i != indexOfCorrectAnswer) {
                 random[i] = getRandomInt(0, (level + 1) * 10);
