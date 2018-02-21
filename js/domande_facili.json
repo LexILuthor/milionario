@@ -80,12 +80,12 @@
         "risposte": ["Greg Hicks ", "Mark Shea", "Geezer Butler", "Tommy Thayer"],
         "corretta": "Greg Hicks ",
         "soluzione": "https://www.google.com"
-    } {
+    } ,{
         "domanda": "chi paga da bere sto giro?",
         "risposte": ["metti sul conto di quel tavolo", "Paoli", "Nicola", "Bonte"],
         "corretta": "metti sul conto di quel tavolo",
         "soluzione": "https://www.google.com"
-    }, ],
+    } ],
     [{
         "domanda": "non mi aspettavo arrivassi fin qui",
         "risposte": [3, 4, 1, 5],
