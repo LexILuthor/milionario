@@ -1,15 +1,23 @@
 [
     [{
-        "domanda": "Quale 1+1 PORCIODDIO",
-        "risposte": ["(a+b)x²", "(a+b+c)x² $", "π(a+b)ℝ√(x-1X³)", "(a+b)(a-b)"],
-        "corretta": "(a+b)(a-b)",
-        "soluzione": "www.google."
-    }],
+            "domanda": "Quale 1+1 PORCIODDIO",
+            "risposte": ["(a+b)x²", "(a+b+c)x² $", "π(a+b)ℝ√(x-1X³)", "(a+b)(a-b)"],
+            "corretta": "(a+b)(a-b)",
+            "soluzione": "www.google."
+        },
+
+        {
+            "domanda": "come di chiama la bionda di Povo?",
+            "risposte": ["Valentina", "Alice", "Caterina", "Emma"],
+            "corretta": "Alice",
+            "soluzione": "chiedi a Valentino"
+        }
+    ],
     [{
-        "domanda": "quanto fa 1*1",
-        "risposte": [1, 4, 2, 5],
-        "corretta": 1,
-        "soluzione": "https://www.google.com"
+        "domanda": "come di chiama la più figa di Povo?",
+        "risposte": ["Valentina", "Alice", "PollY", "Emma"],
+        "corretta": "PollY",
+        "soluzione": "chiedi a Valentino"
     }, {
         "domanda": "dove non si può stare?",
         "risposte": ["nell'angolo rotture della LIDL", "in sosta vietata", "nelle aule di povo dopo le 6", "sul 5 alla mattina"],
@@ -72,7 +80,12 @@
         "risposte": ["Greg Hicks ", "Mark Shea", "Geezer Butler", "Tommy Thayer"],
         "corretta": "Greg Hicks ",
         "soluzione": "https://www.google.com"
-    }],
+    } {
+        "domanda": "chi paga da bere sto giro?",
+        "risposte": ["metti sul conto di quel tavolo", "Paoli", "Nicola", "Bonte"],
+        "corretta": "metti sul conto di quel tavolo",
+        "soluzione": "https://www.google.com"
+    }, ],
     [{
         "domanda": "non mi aspettavo arrivassi fin qui",
         "risposte": [3, 4, 1, 5],
