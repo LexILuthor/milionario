@@ -1,3 +1,6 @@
+
+
+
 /**
  * Returns a random number between min (inclusive) and max (exclusive)
  */
@@ -12,12 +15,6 @@ function getRandomArbitrary(min, max) {
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var domade;
- $.getJSON('js/domande_difficili.json', "", function(data){
-   console.log(data);
-  domande =data;
-  start(0);
-}); //domade
 
 function shuffle(a) {
     var j, x, i;
@@ -174,3 +171,28 @@ function start(level) {
         }
     });
 }
+
+
+
+var domande;
+var jqxhr = $.getJSON( "js/domande_difficili.json", function() {
+  console.log( "success" );
+})
+  .done(function() {
+    console.log( "second success" );
+  })
+  .fail(function(a,b,c) {
+    debugger
+    console.log( "error" );
+  })
+  .always(function() {
+    console.log( "complete" );
+  });
+
+
+
+ $.getJSON('js/domande_difficili.json', "",function(data, status){
+   console.log(data);
+  domande =data;
+  start(0);
+}); //domade

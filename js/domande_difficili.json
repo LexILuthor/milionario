@@ -4,7 +4,7 @@
         "risposte": ["(a+b)x²", "(a+b+c)x² $", "π(a+b)ℝ√(x-1X³)", "(a+b)(a-b)"],
         "corretta": "(a+b)(a-b)",
         "soluzione": "www.google."
-    }, ],
+    }],
     [{
         "domanda": "quanto fa 1*1",
         "risposte": [1, 4, 2, 5],
@@ -17,12 +17,11 @@
         "soluzione": "https://www.youtube.com/watch?v=XxvQwSNUeLk"
     }],
     [{
-            "domanda": "qual tra questi è un metallo?",
-            "risposte": ["necromania", "nove", "oro", "AC/DC"],
-            "corretta": "oro",
-            "soluzione": "https://www.google.com"
-        }
-    ],
+        "domanda": "qual tra questi è un metallo?",
+        "risposte": ["necromania", "nove", "oro", "AC/DC"],
+        "corretta": "oro",
+        "soluzione": "https://www.google.com"
+    }],
     [{
         "domanda": "in che anno sono stati fondati i creed?",
         "risposte": [1993, 1994, 1992, 15],
@@ -79,5 +78,5 @@
         "risposte": [3, 4, 1, 5],
         "corretta": 1,
         "soluzione": "https://www.google.com"
-    }],
-];
+    }]
+]
