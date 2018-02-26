@@ -3,14 +3,14 @@
             "domanda": "Qual'è il quadrato di 7?",
             "risposte": ["50", "49", "64", "36"],
             "corretta": "49",
-            "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7^2 che è appunto uguale a 49."
+            "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7² che è appunto uguale a 49."
         },
 
         {
             "domanda": "Qual'è il cubo di 5?",
             "risposte": ["150", "125", "100", "200"],
             "corretta": "125",
-            "soluzione": "Per cubo di un numero si intende la sua potenza con esponente 3. Nel nostro caso 5^3  che è appunto uguale a 125."
+            "soluzione": "Per cubo di un numero si intende la sua potenza con esponente 3. Nel nostro caso 5³  che è appunto uguale a 125."
         },
 
         {
@@ -37,7 +37,7 @@
             "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. La somma di due monomi da un binomio, che elevato al quadrato da proprio la soluzione"
         }, {
             "domanda": "Quale tra i seguenti prodotti notevoli è un cubo di binomio?",
-            "risposte": ["(a+b)²", "(a+b+c)²", "(a+b)^3", "(a+b)(a-b)"],
+            "risposte": ["(a+b)²", "(a+b+c)²", "(a+b)³", "(a+b)(a-b)"],
             "corretta": "(a+b)³",
             "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. La somma di due monomi da un binomio, che elevato al cubo da proprio la soluzione"
         },
@@ -62,7 +62,7 @@
             "domanda": "Qual'è la radice quadrata di 36?",
             "risposte": ["4", "7", "5", "6"],
             "corretta": "6",
-            "soluzione": "La radice quadrata di un numero, è la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6^2=36."
+            "soluzione": "La radice quadrata di un numero, è la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6²=36."
         },
 
 
@@ -122,7 +122,7 @@
             "domanda": "Quale tra i seguenti numeri corrisponde a 13 in base 2?",
             "risposte": ["1001", "1011", "1111", "1101"],
             "corretta": "1101",
-            "soluzione": "La rappresentazione di un numero in base 2 avviene sfruttando le potenze del 2. Nel nostro caso il 13 si scompone come 8+4+1 e quindi utilizzeremo 1*(2^3)+1*(2²)+0*(2^1)+1*(2^0) che si indica appunto con 1101"
+            "soluzione": "La rappresentazione di un numero in base 2 avviene sfruttando le potenze del 2. Nel nostro caso il 13 si scompone come 8+4+1 e quindi utilizzeremo 1*(2³)+1*(2²)+0*(2^1)+1*(2^0) che si indica appunto con 1101"
         }, {
             "domanda": "Quale tra i seguenti numeri corrisponde a 12 in base 16?",
             "risposte": ["12", "A", "B", "C"],
@@ -132,7 +132,7 @@
             "domanda": "Qual'è la radice cubica di 64?",
             "risposte": ["8", "7", "5", "4"],
             "corretta": "4",
-            "soluzione": "La radice cubica di un numero, è la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4^3=64."
+            "soluzione": "La radice cubica di un numero, è la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4³=64."
         },
 
         {
@@ -301,7 +301,7 @@
             "domanda": "Quanto vale la varianza di una variabile aleatoria X Bernoulliana di parametro p?",
             "risposte": ["p", "p(1-p)", "(1-p)", "1"],
             "corretta": "p(1-p)",
-            "soluzione": "Si ricava direttamente dalla formula, difatti Var(X)=E[X^2]-[E(X)^2] dove con E[X] indico la media di X. Vedi libro consigliato Calcolo delle Probabilità P.Baldi."
+            "soluzione": "Si ricava direttamente dalla formula, difatti Var(X)=E[X²]-[E(X)²] dove con E[X] indico la media di X. Vedi libro consigliato Calcolo delle Probabilità P.Baldi."
         }
     ],
     [{
