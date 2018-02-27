@@ -1,91 +1,261 @@
 [
     [{
-            "domanda": "Quale 1+1 PORCIODDIO",
-            "risposte": ["(a+b)x²", "(a+b+c)x² $", "π(a+b)ℝ√(x-1X³)", "(a+b)(a-b)"],
-            "corretta": "(a+b)(a-b)",
-            "soluzione": "www.google."
+            "domanda": "Qual'è il quadrato di 7?",
+            "risposte": ["50", "49", "64", "36"],
+            "corretta": "49",
+            "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7² che è appunto uguale a 49."
         },
 
         {
-            "domanda": "come di chiama la bionda di Povo?",
-            "risposte": ["Valentina", "Alice", "Caterina", "Emma"],
-            "corretta": "Alice",
-            "soluzione": "chiedi a Valentino"
+            "domanda": "Qual'è il cubo di 5?",
+            "risposte": ["150", "125", "100", "200"],
+            "corretta": "125",
+            "soluzione": "Per cubo di un numero si intende la sua potenza con esponente 3. Nel nostro caso 5³  che è appunto uguale a 125."
+        },
+
+        {
+            "domanda": "Quale tra i seguenti numeri è dispari?",
+            "risposte": ["0", "3", "18", "300"],
+            "corretta": "3",
+            "soluzione": "I numeri dispari sono numeri non multipli di 2. In questo caso notiamo subito che 3 è dispari."
+        },
+
+        {
+            "domanda": "Quale tra i seguenti numeri è pari?",
+            "risposte": ["1", "26", "7", "2019"],
+            "corretta": "26",
+            "soluzione": "I numeri pari sono numeri multipli di 2. In questo caso notiamo subito che 26 è pari."
         }
     ],
     [{
-        "domanda": "come di chiama la più figa di Povo?",
-        "risposte": ["Valentina", "Alice", "PollY", "Emma"],
-        "corretta": "PollY",
-        "soluzione": "chiedi a Valentino"
+            "domanda": "Quale tra i seguenti prodotti notevoli è una differenza di quadrati?",
+            "risposte": ["(a+b)x²", "(a+b+c)x²", "(a+b)x³", "(a+b)(a-b)"],
+            "corretta": "(a+b)(a-b)",
+            "soluzione": "Se prendiamo la somma di due monomi e la moltiplichiamo per la loro differenza, semplificando i termini in eccesso otteniamo proprio che (a+b)(a-b)=(a²)-(b²) che è il risultato cercato"
+        }, {
+            "domanda": "Quale tra i seguenti prodotti notevoli è un quadrato di binomio?",
+            "risposte": ["(a+b)²", "(a+b+c)²", "(a+b)³", "(a+b)(a-b)"],
+            "corretta": "(a+b)²",
+            "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. La somma di due monomi da un binomio, che elevato al quadrato da proprio la soluzione"
+        }, {
+            "domanda": "Quale tra i seguenti prodotti notevoli è un cubo di binomio?",
+            "risposte": ["(a+b)²", "(a+b+c)²", "(a+b)³", "(a+b)(a-b)"],
+            "corretta": "(a+b)³",
+            "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. La somma di due monomi da un binomio, che elevato al cubo da proprio la soluzione"
+        },
+
+
+        {
+            "domanda": "Quale tra i seguenti prodotti notevoli è un quadrato di trinomio?",
+            "risposte": ["(a+b)²", "(a+b+c)²", "(a+b)³", "(a+b)(a-b)"],
+            "corretta": "(a+b+c)²",
+            "soluzione": "In matematica un monomio è un'espressione algebrica costituita da una parte letterale ed un coefficiente. La somma di tre monomi da un trinomio, che elevato al quadrato da proprio la soluzione"
+        }
+    ],
+    [{
+            "domanda": "Quale tra i seguenti numeri appartiene ai Naturali?",
+            "risposte": ["-2", "14", "π", "7/2"],
+            "corretta": "14",
+            "soluzione": "L'insieme dei numeri naturali è N={0,1,2,3,4...}, da cui si deduce che l'unica risposta che vi appartiene è proprio 14."
+        },
+
+
+        {
+            "domanda": "Qual'è la radice quadrata di 36?",
+            "risposte": ["4", "7", "5", "6"],
+            "corretta": "6",
+            "soluzione": "La radice quadrata di un numero, è la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6²=36."
+        },
+
+
+        {
+            "domanda": "Quale tra i seguenti numeri appartiene agli Irrazionali?",
+            "risposte": ["√(19)", "1", "0,5", "1/4"],
+            "corretta": "√(19)",
+            "soluzione": "I numeri irrazionali sono quei numeri che non possono essere rappresentati come rapporto tra due numeri interi. In questo caso l'unico non rappresentabile in tale maniera è √(19), difatti gli altri sono 1/1, 1/2, 1/4"
+        },
+
+        {
+            "domanda": "Quale tra i seguenti numeri corrisponde a 51 in romano?",
+            "risposte": ["LI", "LII", "CI", "CII"],
+            "corretta": "LI",
+            "soluzione": "Nel sistema di numerazione romano I rappresenta l'unità, X=10,L=50,C=100, ricordando questo la soluzione è ovvia."
+        }
+    ],
+    [{
+            "domanda": "Quale tra i seguenti numeri è primo?",
+            "risposte": ["200", "9", "6", "5"],
+            "corretta": "5",
+            "soluzione": "Un numero primo è un numero naturale maggiore di 1 divisibile soltanto per 1 e per sè stesso."
+        },
+
+        {
+            "domanda": "Qual'è il minimo comune multiplo (mcm) tra 5 e 8?",
+            "risposte": ["20", "35", "40", "80"],
+            "corretta": "40",
+            "soluzione": "L'mcm tra due numeri è il più piccolo naturale multiplo sia del primo che del secondo numero"
+        },
+
+
+        {
+            "domanda": "Qual'è il massimo comune divisore (MCD) tra 12 e 18?",
+            "risposte": ["3", "9", "6", "2"],
+            "corretta": "6",
+            "soluzione": "L'MCD tra due numeri è il più grande naturale che divide sia del primo che il secondo numero."
+        }
+
+    ],
+    [{
+        "domanda": "Quale tra i seguenti numeri appartiene agli Interi?",
+        "risposte": ["-2", "√(2)", "π/6", "19/3"],
+        "corretta": "-2",
+        "soluzione": "L'insieme dei numeri interi è Z={0,+1,-1,+2,-2,...}, da cui si deduce che l'unica risposta che vi appartiene è proprio -2."
     }, {
-        "domanda": "dove non si può stare?",
-        "risposte": ["nell'angolo rotture della LIDL", "in sosta vietata", "nelle aule di povo dopo le 6", "sul 5 alla mattina"],
-        "corretta": "nell'angolo rotture della LIDL",
-        "soluzione": "https://www.youtube.com/watch?v=XxvQwSNUeLk"
-    }],
-    [{
-        "domanda": "qual tra questi è un metallo?",
-        "risposte": ["necromania", "nove", "oro", "AC/DC"],
-        "corretta": "oro",
-        "soluzione": "https://www.google.com"
-    }],
-    [{
-        "domanda": "in che anno sono stati fondati i creed?",
-        "risposte": [1993, 1994, 1992, 15],
-        "corretta": 1993,
-        "soluzione": "https://www.google.com"
+        "domanda": "Quale tra i seguenti numeri appartiene ai Razionali?",
+        "risposte": ["√(5)", "e", "π", "17/5"],
+        "corretta": "17/5",
+        "soluzione": "L'insieme dei numeri razionali ℚ è formato dai numeri nella forma p/q con p e q numeri interi e q(diverso da)0. L'unica risposta che soddisfa questa condizione è proprio 17/5. Per altre curiosità sui numeri razionali clicca qui: (LINK)"
     }, {
-        "domanda": "qual'è stata la canzone di Lady Gaga con il maggior numero di dischi venduti?",
-        "risposte": ["poker face", "paparazzi", "bad romance", "Alejandro"],
-        "corretta": "poker face",
-        "soluzione": "https://www.google.com"
-    }],
-    [{
-        "domanda": "chi rubò la gioconda nel 1911?",
-        "risposte": ["Alfredo Geri", "Louis Lépine", "Vincenzo Peruggia", "Louis Béroud"],
-        "corretta": "Vincenzo Peruggia",
-        "soluzione": "https://www.google.com"
-    }],
-    [{
-        "domanda": "quale tra queste è una band christian metal?",
-        "risposte": ["August Burns Red", "pantera", "Iron Claw", "Attila"],
-        "corretta": "August Burns Red",
-        "soluzione": "https://www.google.com"
+        "domanda": "Quale tra i seguenti numeri è immaginario puro?",
+        "risposte": ["i7", "4+i5", "19", "√(13)"],
+        "corretta": "i7",
+        "soluzione": "I numeri complessi vengono rappresentati come z=a+ib con a e b numeri reali, che vengono rispettivamente chiamati parte reale e parte immaginaria. Un numero immaginario puro è un numero complesso con solo la parte immaginaria (a=0), da cui la soluzione"
     }, {
-        "domanda": "che bottiglia ha tirato su il tini dalle immondizie di mesiano?",
-        "risposte": ["Montenegro", "GinLemon", "Black Crow", "Beera"],
-        "corretta": "GinLemon",
-        "soluzione": "https://www.google.com"
+        "domanda": "Quale tra i seguenti numeri corrisponde a 13 in base 2?",
+        "risposte": ["1001", "1011", "1111", "1101"],
+        "corretta": "1101",
+        "soluzione": "La rappresentazione di un numero in base 2 avviene sfruttando le potenze del 2. Nel nostro caso il 13 si scompone come 8+4+1 e quindi utilizzeremo 1*(2³)+1*(2²)+0*(2^1)+1*(2^0) che si indica appunto con 1101"
     }],
     [{
-        "domanda": "come si chiamava la prima band del Tini?",
-        "risposte": ["wrathstorm", "the ringhier", "stramezza", "twinkera"],
-        "corretta": "the ringhier",
-        "soluzione": "https://www.google.com"
-    }, {
-        "domanda": "come si chiama l'airband fondata da Ted e l'inserviente in Scrubs?",
-        "risposte": [3, "CoolCats", "Rats", "Hospitalizers"],
-        "corretta": "CoolCats",
-        "soluzione": "https://www.google.com"
-    }],
+            "domanda": "Quale tra i seguenti numeri corrisponde a 12 in base 16?",
+            "risposte": ["12", "A", "B", "C"],
+            "corretta": "C",
+            "soluzione": "La notazione esadecimale utlizza la stessa notazione di quella decimale fino al numero 9, e partendo dal 10 fino al 15, associa le prime lettere dell'alfabeto. 10=A 11=B 12=C 13=D 14=E 15=F"
+        }, {
+            "domanda": "Qual'è la radice cubica di 64?",
+            "risposte": ["8", "7", "5", "4"],
+            "corretta": "4",
+            "soluzione": "La radice cubica di un numero, è la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4³=64."
+        },
+
+        {
+            "domanda": "Quale tra le seguenti equazioni rappresenta una retta reale passante per l'origine?",
+            "risposte": ["y=3x", "y²=-2(x²) +4", "y=4(x²)", "y=5x+3"],
+            "corretta": "y=3x",
+            "soluzione": "L'equazione generica di una retta reale nel piano è y=mx+q, con m e q numeri reali. Siccome vogliamo che passi per l'origine è necessario che abbia il punto (0,0) come soluzione, di conseguenza q=0,e quindi otteniamo la soluzione."
+        }
+    ],
     [{
-        "domanda": "sotto quale imperatore l'impero romano raggiunse la sua massima estensione?",
-        "risposte": ["Claudio", "Nerone", "Traiano", "Augusto"],
-        "corretta": "Traiano",
-        "soluzione": "https://www.google.com"
-    }],
+            "domanda": "Quale operazione tra insiemi rappresenta la congiunione O (Vel)?",
+            "risposte": ["Unione", "Intersezione", "Complementare", "Senza"],
+            "corretta": "Unione",
+            "soluzione": "La congiunzione O nel campo dell'insiemistica può essere interpretata perfettamente dall'unione. Difatti un elemento che sta nell'unione sta nell'uno O nell'altro (NON è una O esclusiva). Vedi cap.1 del libro consigliato Analisi Matematica M.Bertsch."
+        }, {
+            "domanda": "Quale tra queste NON è una delle proprietà di una relazione di equivalenza?",
+            "risposte": ["Riflessività", "Transitività", "Simmetria", "Chiusura"],
+            "corretta": "Chiusura",
+            "soluzione": "Una relazione di equivalenza è una relazione binaria tra gli elementi di un'insieme che soddisfa le proprietà: Riflessiva, Simmetrica e Transitiva."
+        },
+
+        {
+            "domanda": "Qual'è il grado del polinomio nullo?",
+            "risposte": ["0", "1", "+∞", "-∞"],
+            "corretta": "-∞",
+            "soluzione": "E' stato introdotto in questa maniera per non creare abiguità sulle operazioni di grado tra polinomi."
+        },
+
+        {
+            "domanda": "Quale tra le seguenti NON è una delle propietà che caratterizzano un gruppo?",
+            "risposte": ["Esistenza Unità", "Esistenza Inverso", "Prop. Associativa", "Prop. Distributiva"],
+            "corretta": "Prop. Distributiva",
+            "soluzione": "Un gruppo è una coppia (G,*) dove G è un insieme non vuoto e * un'operazione binaria su G. Affinchè sia un gruppo devono valere 3 proprietà: l'operazione deve rispettare la proprietà Associativa ,l'esistenza dell'Unità e l'esistenza dell'inverso rispetto a *."
+        },
+
+        {
+            "domanda": "Qual'è la propietà che caratterizza un semigruppo?",
+            "risposte": ["Unità", "Opposto", "Prop. Associativa", "Prop. Commutativa"],
+            "corretta": "Prop. Associativa",
+            "soluzione": "Un semigruppo è una coppia (S,*) dove S è un insieme non vuoto e * un'operazione binaria su S che rispetti la prop. Associativa."
+        }
+    ],
+    [
+
+
+        {
+            "domanda": "Qual'è l'unico punto di accumulazione per N in R*?",
+            "risposte": ["0", "1", "+∞", "-∞"],
+            "corretta": "+∞",
+            "soluzione": "Basta applicare la definizone di punto di accumulazione (gli intorni di +∞ sono semirette)."
+        },
+
+        {
+            "domanda": "Quanti punti di accumulazione ha N in R*?",
+            "risposte": ["0", "1", "Infiniti", "32"],
+            "corretta": "1",
+            "soluzione": "Basta applicare la definizone di punto di accumulazione ad N e notare che funziona solo con +∞."
+        },
+
+
+        {
+            "domanda": "Quale tra queste isometrie non è Diretta?",
+            "risposte": ["Rotazione", "Traslazione", "Identità", "Riflessione"],
+            "corretta": "Riflessione",
+            "soluzione": "Le isometrie sono particolari trasformazioni che non alterano la distanza fra punti. Si dividono in dirette ed inverse. Tra le dirette abbiamo rotazioni, traslazioni, rototraslazioni mentre tra le inverse ci sono riflessioni e glissoriflessioni.Per saperne di più sulle isometrie clicca qui: (LINK) o vedi libro consigliato Geometria 1 Sernesi."
+        },
+
+
+
+        {
+            "domanda": "Quale tra i seguenti insiemi NON è un campo?",
+            "risposte": ["C", "R", "Z", "Q"],
+            "corretta": "Z",
+            "soluzione": "Un campo è una triade (K,*,+) con K insieme non vuoto e *,+ operazioni binarie. Affinchè sia un campo è necessario che ogni elemento non nullo sia invertibile, cosa che non succede se consideriamo Z."
+        },
+
+        {
+            "domanda": "Un'equazione differenziale ha come soluzione..",
+            "risposte": ["una funzione", "uno scalare", "0", "un vettore"],
+            "corretta": "una funzione",
+            "soluzione": "Discende direttamente dalla definizione di equazione differenziale. Vedi cap.13 del libro consigliato Analisi Matematica M.Bertsch."
+        }
+    ],
     [{
-        "domanda": "chi è stato il fondatore dei Black Death?",
-        "risposte": ["Greg Hicks ", "Mark Shea", "Geezer Butler", "Tommy Thayer"],
-        "corretta": "Greg Hicks ",
-        "soluzione": "https://www.google.com"
-    } ,{
-        "domanda": "chi paga da bere sto giro?",
-        "risposte": ["metti sul conto di quel tavolo", "Paoli", "Nicola", "Bonte"],
-        "corretta": "metti sul conto di quel tavolo",
-        "soluzione": "https://www.google.com"
-    } ],
+            "domanda": "Quale tra i seguenti prodotti da come rislutato uno scalare?",
+            "risposte": ["Prod. per scalare", "Prod. Scalare", "Prod. Vettoriale", "Prod. Tensoriale"],
+            "corretta": "Prod. Scalare",
+            "soluzione": "Discende direttamente dalla definizione di prodotto scalare. Vedi libro consigliato Geometria 1 E.Sernesi"
+        },
+
+        {
+            "domanda": "Quale tra i seguenti prodotti da come rislutato un vettore?",
+            "risposte": ["Prod. Cartesiano", "Prod. Scalare", "Prod. Vettoriale", "Prod. Tensoriale"],
+            "corretta": "Prod. Vettoriale",
+            "soluzione": "Discende direttamente dalla definizione di prodotto vettoriale. Vedi libro consigliato Geometria 1 E.Sernesi"
+        },
+
+        {
+            "domanda": "Quale operazione tra insiemi rappresenta la congiunione e (Et)?",
+            "risposte": ["Unione", "Intersezione", "Complementare", "Senza"],
+            "corretta": "Intersezione",
+            "soluzione": "La congiunzione e (Et) nel campo dell'insiemistica può essere interpretata perfettamente dall'intersezione. Difatti un elemento che sta nell'intersezione sta nell'uno e nell'altro. Vedi cap.1 del libro consigliato Analisi Matematica M.Bertsch."
+        },
+
+        {
+            "domanda": "Quale teorema ci garantisce l'esistenza di massimo e minimo per una funzione continua in un compatto?",
+            "risposte": ["Cauchy", "Lagrange", "de l'Hopital", "Weierstrass"],
+            "corretta": "Weierstrass",
+            "soluzione": "Discende direttamente dall'enunciato del teorema di Weierstrass. Vedi cap.6 del libro consigliato Analisi Matematica M.Bertsch."
+        },
+
+        {
+            "domanda": "Quale tra queste NON è una delle proprietà di una funzione chiamata omeomorfismo?",
+            "risposte": ["Continua", "Inversa continua", "Biiettiva", "Differenziabile"],
+            "corretta": "Differenziabile",
+            "soluzione": "Discende direttamente dalla definizione. Un omeomorfismo è una funzione tra spazi topologici che è continua, biiettiva e con inversa continua. Vedi cap.5 del libro consigliato Geometria 2 E.Sernesi."
+        }
+
+
+    ],
     [{
         "domanda": "non mi aspettavo arrivassi fin qui",
         "risposte": [3, 4, 1, 5],
