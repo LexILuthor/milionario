@@ -255,37 +255,30 @@
     ],
     [{
             "domanda": "In che anno è morto il matematico Carl Friedrich Gauss?",
-            "risposte": ["1704", "1705", "1706", "1707"],
-            "corretta": "1707",
-            "soluzione": "Per saperne di più su Carl Friedrich Gauss clicca qui: (LINK)"
+            "risposte": ["1754", "1855", "1916", "1911"],
+            "corretta": "1855",
+            "soluzione": "Per saperne di più su Carl Friedrich Gauss clicca qui: https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss"
         },
 
         {
             "domanda": "In che anno è nato il matematico Eulero?",
-            "risposte": ["1854", "1855", "1856", "1857"],
-            "corretta": "1855",
-            "soluzione": "Per saperne di più su Eulero clicca qui: (LINK)"
-        },
-
-        {
-            "domanda": "In che città nacque il matematico francese Augustin Louis Cauchy?",
-            "risposte": ["Parigi", "Lione", "Tolosa", "Orleans"],
-            "corretta": "Parigi",
-            "soluzione": "Per saperne di più su Augustin Louis Cauchy clicca qui: (LINK)"
+            "risposte": ["1804", "1605", "1716", "1707"],
+            "corretta": "1707",
+            "soluzione": "Per saperne di più su Eulero clicca qui: https://it.wikipedia.org/wiki/Eulero"
         }
     ],
-    [{
+    [
+      {
+          "domanda": "In che città nacque il matematico francese Augustin Louis Cauchy?",
+          "risposte": ["Parigi", "Lione", "Tolosa", "Orleans"],
+          "corretta": "Parigi",
+          "soluzione": "Per saperne di più su Augustin Louis Cauchy clicca qui: https://it.wikipedia.org/wiki/Augustin-Louis_Cauchy"
+      },
+      {
             "domanda": "Se una curva ha torsione e curvatura costanti è..",
             "risposte": ["una circonferenza", "una retta", "un'elica circolare", "nessuna delle precedenti"],
             "corretta": "un'elica circolare",
             "soluzione": "Se una curva ha curvatura e torsione costanti è un elica circolare, discende dalla definizione di elica circolare.Vedi cap.6 del libro consigliato Geometria 2 E.Sernesi."
-        },
-
-        {
-            "domanda": "Quale tra i seguenti versori NON fa parte della Terna di Frenet?",
-            "risposte": ["Normale", "Binormale", "Tangente", "Osculatore"],
-            "corretta": "Osculatore",
-            "soluzione": "La terna di Frenet indiata con {t,n,b} è una base ortonormale per lo spazio, ed è formata dai versori Tangente, Normale e Binormale.Vedi cap.6 del libro consigliato Geometria 2 E.Sernesi."
         }
     ],
     [
@@ -304,10 +297,13 @@
             "soluzione": "Si ricava direttamente dalla formula, difatti Var(X)=E[X²]-[E(X)²] dove con E[X] indico la media di X. Vedi libro consigliato Calcolo delle Probabilità P.Baldi."
         }
     ],
-    [{
-        "domanda": "non mi aspettavo arrivassi fin qui",
-        "risposte": [3, 4, 1, 5],
-        "corretta": 1,
-        "soluzione": "https://www.google.com"
-    }]
+    [
+      {
+          "domanda": "Quale tra i seguenti versori NON fa parte della Terna di Frenet?",
+          "risposte": ["Normale", "Binormale", "Tangente", "Osculatore"],
+          "corretta": "Osculatore",
+          "soluzione": "La terna di Frenet indiata con {t,n,b} è una base ortonormale per lo spazio, ed è formata dai versori Tangente, Normale e Binormale.Vedi cap.6 del libro consigliato Geometria 2 E.Sernesi."
+      }
+
+    ]
 ]

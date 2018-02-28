@@ -245,21 +245,12 @@
             "risposte": ["Cauchy", "Lagrange", "de l'Hopital", "Weierstrass"],
             "corretta": "Weierstrass",
             "soluzione": "Discende direttamente dall'enunciato del teorema di Weierstrass. Vedi cap.6 del libro consigliato Analisi Matematica M.Bertsch."
-        },
-
-        {
-            "domanda": "Quale tra queste NON è una delle proprietà di una funzione chiamata omeomorfismo?",
-            "risposte": ["Continua", "Inversa continua", "Biiettiva", "Differenziabile"],
-            "corretta": "Differenziabile",
-            "soluzione": "Discende direttamente dalla definizione. Un omeomorfismo è una funzione tra spazi topologici che è continua, biiettiva e con inversa continua. Vedi cap.5 del libro consigliato Geometria 2 E.Sernesi."
         }
-
-
     ],
-    [{
-        "domanda": "non mi aspettavo arrivassi fin qui",
-        "risposte": [3, 4, 1, 5],
-        "corretta": 1,
-        "soluzione": "https://www.google.com"
-    }]
+    [  {
+          "domanda": "Quale tra queste NON è una delle proprietà di una funzione chiamata omeomorfismo?",
+          "risposte": ["Continua", "Inversa continua", "Biiettiva", "Differenziabile"],
+          "corretta": "Differenziabile",
+          "soluzione": "Discende direttamente dalla definizione. Un omeomorfismo è una funzione tra spazi topologici che è continua, biiettiva e con inversa continua. Vedi cap.5 del libro consigliato Geometria 2 E.Sernesi."
+      }]
 ]
