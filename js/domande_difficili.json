@@ -3,7 +3,7 @@
             "domanda": "Qual'è il quadrato di 7?",
             "risposte": ["50", "49", "64", "36"],
             "corretta": "49",
-            "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7² che è appunto uguale a 49."
+            "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7² che è appunto uguale a 49. <a href="https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss">"
         },
 
         {
