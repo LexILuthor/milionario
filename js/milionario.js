@@ -51,35 +51,30 @@ function start(level) {
         $(this).text(thisQuestion.risposte[index]);
     });
 
-    $('.answer').on('click', function(event) {
-        if ($(this).hasClass('btn-warning')) {
-            $('.answer').removeClass('btn-warning');
-            $('.answer').prop("disabled", true);
-            if ($(this).text() === "" + thisQuestion.corretta) { //controllo se la risposta è correta o meno
-                $(this).addClass('btn-success');
-                $('#continua').show();
-                $("#next-level").show();
-                $("#next-game").hide();
-
-            } else {
-                $(this).addClass('btn-danger');
-                $('.answer').each(function(index) {
-                    if ($(this).text() === "" + thisQuestion.corretta) {
-                        $(this).addClass('btn-success');
-                    }
-                });
-                $('#next-level').hide();
-                $('#next-game').show();
-                $('#continua').show();
-
-            }
-            $('#soluzione').attr("href", thisQuestion.soluzione);
+    $('.answer').on('click', function (event) {
+        $('.answer').prop("disabled", true);
+        if ($(this).text() === "" + thisQuestion.corretta) { //controllo se la risposta è correta o meno
+            $(this).addClass('btn-success');
+            $('#continua').show();
+            $("#next-level").show();
+            $("#next-game").hide();
 
         } else {
-            $('.answer').removeClass('btn-warning');
-            $(this).addClass('btn-warning');
+            $(this).addClass('btn-danger');
+            $('.answer').each(function (index) {
+                if ($(this).text() === "" + thisQuestion.corretta) {
+                    $(this).addClass('btn-success');
+                }
+            });
+            $('#next-level').hide();
+            $('#next-game').show();
+            $('#continua').show();
+
         }
-        setTimeout(function() {
+        $('#soluzione').attr("href", thisQuestion.soluzione);
+
+
+        setTimeout(function () {
             $(self).prop("disabled", true);
         }, 10);
     });
