@@ -44,7 +44,6 @@ function start(level) {
     $('#next-game').hide();
 
     var thisQuestion = getRandomQuestionForLevel(level);
-    //var correctAnswer = thisQuestion.risposte[0];
     shuffle(thisQuestion.risposte);
     $('#domanda').text(thisQuestion.domanda);
     $('.answer').each(function(index) {
@@ -182,4 +181,4 @@ var modalitaScelta = url.searchParams.get("modalita");
    console.log(data);
   domande =data;
   start(0);
-}); //domade
+}); //domande
