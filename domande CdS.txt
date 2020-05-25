@@ -375,17 +375,11 @@ Libri consigliati da inserire nella relazione : "Geometria 1" e "Geometria 2" E.
 
 
 
-
-
-
-
-
 {
  		"domanda": "Se una curva ha torsione e curvatura costanti è..",
-                "risposte": ["una circonferenza", "una retta", "un'elica circolare", "nessuna delle precedenti"],
+                "risposte": ["una circonferenza", "una retta", "un'elica circolare", "tutte le risposte sono esatte"],
                 "corretta": "un'elica circolare",
-                "soluzione": "Se una curva ha curvatura e torsione costanti è un elica circolare, discende dalla definizione di elica circolare.
-		Vedi cap.6 del libro consigliato "Geometria 2" E.Sernesi."
+                "soluzione": "Lo ha detto il Franz"
 },
 
 {
