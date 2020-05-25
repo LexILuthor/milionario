@@ -1,6 +1,6 @@
 [
     [{
-            "domanda": "Qual'è il quadrato di 7?",
+            "domanda": "Qual è il quadrato di 7?",
             "risposte": ["50", "49", "64", "36"],
             "corretta": "49",
             "soluzione": "Per quadrato di un numero si intende la sua potenza con esponente 2. Nel nostro caso 7² che è appunto uguale a 49."
@@ -61,7 +61,7 @@
 
 
         {
-            "domanda": "Qual'è la radice quadrata di 36?",
+            "domanda": "Qual è la radice quadrata di 36?",
             "risposte": ["4", "7", "5", "6"],
             "corretta": "6",
             "soluzione": "La radice quadrata di un numero, è la funzione inversa dell'elevazione al quadrato. Rapidamente si nota che 6*6=6²=36."
@@ -90,7 +90,7 @@
         },
 
         {
-            "domanda": "Qual'è il minimo comune multiplo (mcm) tra 5 e 8?",
+            "domanda": "Qual è il minimo comune multiplo (mcm) tra 5 e 8?",
             "risposte": ["20", "35", "40", "80"],
             "corretta": "40",
             "soluzione": "L'mcm tra due numeri è il più piccolo naturale multiplo sia del primo che del secondo numero"
@@ -98,7 +98,7 @@
 
 
         {
-            "domanda": "Qual'è il massimo comune divisore (MCD) tra 12 e 18?",
+            "domanda": "Qual è il massimo comune divisore (MCD) tra 12 e 18?",
             "risposte": ["3", "9", "6", "2"],
             "corretta": "6",
             "soluzione": "L'MCD tra due numeri è il più grande naturale che divide sia del primo che il secondo numero."
@@ -132,7 +132,7 @@
             "corretta": "C",
             "soluzione": "La notazione esadecimale utlizza la stessa notazione di quella decimale fino al numero 9, e partendo dal 10 fino al 15, associa le prime lettere dell'alfabeto. 10=A 11=B 12=C 13=D 14=E 15=F"
         }, {
-            "domanda": "Qual'è la radice cubica di 64?",
+            "domanda": "Qual è la radice cubica di 64?",
             "risposte": ["8", "7", "5", "4"],
             "corretta": "4",
             "soluzione": "La radice cubica di un numero, è la funzione inversa dell'elevazione al cubo. Rapidamente si nota che 4*4*4=4³=64."
@@ -158,7 +158,7 @@
         },
 
         {
-            "domanda": "Qual'è il grado del polinomio nullo?",
+            "domanda": "Qual è il grado del polinomio nullo?",
             "risposte": ["0", "1", "+∞", "-∞"],
             "corretta": "-∞",
             "soluzione": "E' stato introdotto in questa maniera per non creare abiguità sulle operazioni di grado tra polinomi."
@@ -172,7 +172,7 @@
         },
 
         {
-            "domanda": "Qual'è la propietà che caratterizza un semigruppo?",
+            "domanda": "Qual è la propietà che caratterizza un semigruppo?",
             "risposte": ["Unità", "Opposto", "Prop. Associativa", "Prop. Commutativa"],
             "corretta": "Prop. Associativa",
             "soluzione": "Un semigruppo è una coppia (S,*) dove S è un insieme non vuoto e * un'operazione binaria su S che rispetti la prop. Associativa."
@@ -182,7 +182,7 @@
 
 
         {
-            "domanda": "Qual'è l'unico punto di accumulazione per N in R*?",
+            "domanda": "Qual è l'unico punto di accumulazione per N in R*?",
             "risposte": ["0", "1", "+∞", "-∞"],
             "corretta": "+∞",
             "soluzione": "Basta applicare la definizone di punto di accumulazione (gli intorni di +∞ sono semirette)."
