@@ -275,8 +275,8 @@
           "soluzione": "Per saperne di più su Augustin Louis Cauchy clicca qui: https://it.wikipedia.org/wiki/Augustin-Louis_Cauchy"
       },
       {
-            "domanda": "Se una curva ha torsione e curvatura costanti è..",
-            "risposte": ["una circonferenza", "una retta", "un'elica circolare", "tutte le risposte sono corrette"],
+            "domanda": "Se una curva nello spazio ha torsione e curvatura costanti e non nulle, allora è..",
+            "risposte": ["una circonferenza", "una retta", "un'elica circolare", "nessuna delle risposte sono corrette"],
             "corretta": "un'elica circolare",
             "soluzione": "L'ha detto il Franz"
         }
